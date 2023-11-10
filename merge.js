@@ -6,7 +6,7 @@ const outputPath = path.join(__dirname, 'ultralist_UB.txt');
 
 let lines = new Set();
 
-fs.readdir(directoryPath, (err, files) => {
+fs.readdirSync(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
   } 
