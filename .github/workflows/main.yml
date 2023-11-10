@@ -37,7 +37,7 @@ jobs:
         java-version: '17'
 
     - name: Merge with SHM
-      run: java -jar simple_hosts_merger.jar allowlist.txt blocklists.txt lists cache;
+      run: java -jar simple_hosts_merger.jar ./lists/file1.txt ./lists/file2.txt hosts cache;
       
     - name: Commit
       uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
