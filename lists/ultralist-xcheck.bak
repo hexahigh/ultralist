@@ -1,0 +1,155 @@
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+----------------------------------------------------------------
+17	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+22	~2%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+81	~10%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+616	~3%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+56	~2%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+
+
+https://malware-filter.gitlab.io/malware-filter/phishing-filter-agh.txt
+----------------------------------------------------------------
+No significant number of entries found in any other lists.
+
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+----------------------------------------------------------------
+17	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+23	~2%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+61	~1%		https://easylist.to/easylist/easylist.txt
+512	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+----------------------------------------------------------------
+22	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+16	~2%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+379	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+42	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+----------------------------------------------------------------
+99	~8%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+124	~8%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+41	~4%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+4	~5%		https://easylist.to/easylist/easyprivacy.txt
+2	~66%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+8	~5%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+53	~6%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+8	~5%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+767	~20%		https://easylist.to/easylist/easylist.txt
+2938	~16%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+232	~27%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+431	~16%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+
+
+https://easylist.to/easylist/easyprivacy.txt
+----------------------------------------------------------------
+19	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+----------------------------------------------------------------
+No significant number of entries found in any other lists.
+
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+----------------------------------------------------------------
+1	~1%		https://easylist.to/easylist/easyprivacy.txt
+25	~3%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+138	~100%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+34	~4%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+----------------------------------------------------------------
+81	~6%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+23	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+16	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+25	~18%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+25	~18%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+40	~1%		https://easylist.to/easylist/easylist.txt
+469	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+25	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+----------------------------------------------------------------
+1	~1%		https://easylist.to/easylist/easyprivacy.txt
+138	~100%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+25	~3%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+34	~4%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+https://easylist.to/easylist/easylist.txt
+----------------------------------------------------------------
+23	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+61	~4%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+25	~2%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+767	~4%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+3	~4%		https://easylist.to/easylist/easyprivacy.txt
+10	~7%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+40	~5%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+10	~7%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+3745	~20%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+207	~24%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+123	~4%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+----------------------------------------------------------------
+616	~53%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+512	~36%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+379	~41%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+2938	~18%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+3	~4%		https://easylist.to/easylist/easyprivacy.txt
+2	~66%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_17_TrackParam/filter.txt
+28	~20%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+469	~60%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+28	~20%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+3745	~99%		https://easylist.to/easylist/easylist.txt
+223	~26%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+620	~24%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+
+
+https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+----------------------------------------------------------------
+232	~1%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+19	~25%		https://easylist.to/easylist/easyprivacy.txt
+34	~24%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+25	~3%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+34	~24%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+207	~5%		https://easylist.to/easylist/easylist.txt
+223	~1%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+
+
+https://adaway.org/hosts.txt
+----------------------------------------------------------------
+No significant number of entries found in any other lists.
+
+
+https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters.txt
+----------------------------------------------------------------
+56	~4%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
+19	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2023.txt
+42	~4%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2021.txt
+431	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_14_Annoyances/filter.txt
+18	~13%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
+14	~1%		https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2022.txt
+18	~13%		https://github.com/uBlockOrigin/uAssets/raw/master/filters/privacy.txt
+123	~3%		https://easylist.to/easylist/easylist.txt
+620	~3%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_2_Base/filter.txt
+20	~2%		https://raw.githubusercontent.com/AdguardTeam/FiltersRegistry/master/filters/filter_3_Spyware/filter.txt
+
+
+https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt
+----------------------------------------------------------------
+22941	~100%		https://malware-filter.gitlab.io/malware-filter/phishing-filter-domains.txt
+
+
+https://malware-filter.gitlab.io/malware-filter/phishing-filter-domains.txt
+----------------------------------------------------------------
+22941	~99%		https://malware-filter.gitlab.io/malware-filter/phishing-filter.txt
+
+
