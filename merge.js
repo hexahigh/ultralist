@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(__dirname, 'temp');
-const outputPath = path.join(__dirname, 'ultralist_UB.txt');
+const outputPath = path.join(__dirname, 'lists/ultralist-UB.txt');
 
 let lines = new Set();
 
