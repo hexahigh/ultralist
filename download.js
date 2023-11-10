@@ -44,7 +44,7 @@ async function downloadAll() {
 }
 
 // Delete old temp files
-if (!fs.existsSync("temp")) {
+if (fs.existsSync("temp")) {
   console.log("Deleting old temp files");
   fs.rmSync("temp", { recursive: true, force: true });
 }
