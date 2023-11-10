@@ -40,7 +40,15 @@ async function downloadAll() {
   console.log('All files downloaded');
 }
 
-// Create the 'lists' directory if it doesn't exist
+// Delete old temp files
+fs.rmSync('temp', { recursive: true, force: true });
+
+// Delete old list
+if (!fs.existsSync('lists/ultralist_UB.txt')) {
+  fs.rmSync('lists/ultralist_UB.txt')
+}
+
+// Create the 'temp' directory if it doesn't exist
 if (!fs.existsSync('temp')) {
   fs.mkdirSync('temp');
 }

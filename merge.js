@@ -21,5 +21,3 @@ fs.readdirSync(directoryPath, (err, files) => {
   fs.writeFileSync(outputPath, uniqueLines);
   console.log('All files merged into list');
 });
-
-fs.rmSync('temp', { recursive: true, force: true });
