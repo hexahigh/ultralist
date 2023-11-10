@@ -40,4 +40,9 @@ async function downloadAll() {
   console.log('All files downloaded');
 }
 
+// Create the 'lists' directory if it doesn't exist
+if (!fs.existsSync('lists')) {
+  fs.mkdirSync('lists');
+}
+
 downloadAll();
