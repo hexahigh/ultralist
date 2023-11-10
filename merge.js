@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const directoryPath = path.join(__dirname, 'lists');
-const outputPath = path.join(__dirname, 'list.txt');
+const directoryPath = path.join(__dirname, 'temp');
+const outputPath = path.join(__dirname, 'ultralist_UB.txt');
 
 let lines = new Set();
 
@@ -19,5 +19,7 @@ fs.readdir(directoryPath, (err, files) => {
 
   let uniqueLines = Array.from(lines).join('\n');
   fs.writeFileSync(outputPath, uniqueLines);
-  console.log('All files merged into list.txt');
+  console.log('All files merged into list');
 });
+
+fs.rmSync('temp', { recursive: true, force: true });

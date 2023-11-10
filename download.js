@@ -33,16 +33,16 @@ async function downloadFile(fileUrl, outputLocationPath) {
 async function downloadAll() {
   for (let i = 0; i < urls.length; i++) {
     const url = urls[i];
-    console.log(`Downloading file ${i + 1}`);
-    await downloadFile(url, path.resolve(__dirname, 'lists', `file${i + 1}.txt`));
+    console.log(`Downloading file ${i + 1} out of ${urls.length}`);
+    await downloadFile(url, path.resolve(__dirname, 'temp', `file${i + 1}.txt`));
     console.log(`Downloaded file ${i + 1}`);
   }
   console.log('All files downloaded');
 }
 
 // Create the 'lists' directory if it doesn't exist
-if (!fs.existsSync('lists')) {
-  fs.mkdirSync('lists');
+if (!fs.existsSync('temp')) {
+  fs.mkdirSync('temp');
 }
 
 downloadAll();
