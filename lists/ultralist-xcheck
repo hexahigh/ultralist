@@ -27,7 +27,7 @@ https://divested.dev/hosts-domains-wildcards
 33	~97%		https://s3.amazonaws.com/lists.disconnect.me/simple_tracking.txt
 1001	~100%		https://v.firebog.net/hosts/Admiral.txt
 1861	~97%		https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt
-272	~45%		https://urlhaus.abuse.ch/downloads/rpz/
+260	~43%		https://urlhaus.abuse.ch/downloads/rpz/
 16571	~99%		https://gitlab.com/quidsup/notrack-blocklists/raw/master/notrack-blocklist.txt
 79968	~18%		https://raw.githubusercontent.com/lightswitch05/hosts/master/docs/lists/ads-and-tracking-extended.txt
 22	~100%		https://raw.githubusercontent.com/olbat/ut1-blacklists/master/blacklists/stalkerware/domains
