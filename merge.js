@@ -3,7 +3,7 @@ const path = require('path');
 
 const directoryPath = path.join(__dirname, 'temp');
 const outputPath = path.join(__dirname, 'lists/ultralist-UB.txt');
-const prependText = `! Title: Boofdev's ultralist\n! Description: A giant filter list that blocks ads, trackers and more\n`;
+const prependFilePath = path.join(__dirname, 'extra.txt');
 
 let lines = new Set();
 
@@ -11,6 +11,9 @@ fs.readdir(directoryPath, (err, files) => {
   if (err) {
     return console.log('Unable to scan directory: ' + err);
   } 
+
+  // Text to prepend
+  let prependText = fs.readFileSync(prependFilePath, 'utf8');
 
   files.forEach((file) => {
     let data = fs.readFileSync(path.join(directoryPath, file), 'utf8');
