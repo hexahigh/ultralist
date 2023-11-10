@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 const directoryPath = path.join(__dirname, 'temp');
-const outputPath = path.join(__dirname, 'lists/ultralist_UB.txt');
+const outputPath = path.join(__dirname, 'ultralist_UB.txt');
 
 let lines = new Set();
 
@@ -15,6 +15,7 @@ fs.readdirSync(directoryPath, (err, files) => {
     let data = fs.readFileSync(path.join(directoryPath, file), 'utf8');
     let fileLines = data.split('\n');
     fileLines.forEach((line) => lines.add(line));
+    console.log(`Merged file: ${file}`)
   });
 
   let uniqueLines = Array.from(lines).join('\n');
