@@ -19,8 +19,8 @@ fs.readdir(directoryPath, (err, files) => {
     let data = fs.readFileSync(path.join(directoryPath, file), 'utf8');
     let fileLines = data.split('\n');
     fileLines.forEach((line) => {
-      // Only add the line if it doesn't start with "!"
-      if (!line.startsWith('!')) {
+      // Only add the line if it is not a comment
+      if (!line.startsWith('!') || line.startsWith('!#')) {
         lines.add(line);
       }
     });
