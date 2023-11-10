@@ -4,6 +4,8 @@ const path = require("path");
 
 // Read URLs from a JSON file
 const urls = require("./urls.json");
+const directoryPath = path.join(__dirname, 'temp');
+const outputPath = path.join(__dirname, 'lists/ultralist_UB.txt');
 
 async function downloadFile(fileUrl, outputLocationPath) {
   const writer = fs.createWriteStream(outputLocationPath);
@@ -44,20 +46,20 @@ async function downloadAll() {
 }
 
 // Delete old temp files
-if (fs.existsSync("temp")) {
+if (fs.existsSync(directoryPath)) {
   console.log("Deleting old temp files");
-  fs.rmSync("temp", { recursive: true, force: true });
+  fs.rmSync(directoryPath, { recursive: true, force: true });
 }
 
 // Delete old list
-if (fs.existsSync("lists/ultralist_UB.txt")) {
+if (fs.existsSync(outputPath)) {
   console.log("Deleting old list");
-  fs.rmSync("lists/ultralist_UB.txt");
+  fs.rmSync(outputPath);
 }
 
 // Create the 'temp' directory if it doesn't exist
-if (!fs.existsSync("temp")) {
-  fs.mkdirSync("temp");
+if (!fs.existsSync(directoryPath)) {
+  fs.mkdirSync(directoryPath);
 }
 
 downloadAll();
