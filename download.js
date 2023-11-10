@@ -44,7 +44,7 @@ async function downloadAll() {
 fs.rmSync('temp', { recursive: true, force: true });
 
 // Delete old list
-if (!fs.existsSync('lists/ultralist_UB.txt')) {
+if (fs.existsSync('lists/ultralist_UB.txt')) {
   fs.rmSync('lists/ultralist_UB.txt')
 }
 
