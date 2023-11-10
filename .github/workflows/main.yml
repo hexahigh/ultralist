@@ -29,6 +29,15 @@ jobs:
       
     - name: Merge Files
       run: node ./merge.js
+
+    - name: Setup java
+      uses: actions/setup-java@v3
+      with:
+        distribution: 'zulu' # See 'Supported distributions' for available options
+        java-version: '17'
+
+    - name: Merge with SHM
+      run: java -jar simple_hosts_merger.jar allowlist.txt blocklists.txt lists cache;
       
     - name: Commit
       uses: EndBug/add-and-commit@v9 # You can change this to use a specific version.
