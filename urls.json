@@ -26,5 +26,9 @@
   "https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/personal.txt",
   "https://github.com/DandelionSprout/adfilt/raw/master/LegitimateURLShortener.txt",
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/NorwegianList.txt",
-  "https://github.com/DandelionSprout/adfilt/raw/master/RickrollLinkIdentifier.txt"
+  "https://github.com/DandelionSprout/adfilt/raw/master/RickrollLinkIdentifier.txt",
+  "https://github.com/DandelionSprout/adfilt/raw/master/Pro-LED%20List.txt",
+  "https://github.com/DandelionSprout/adfilt/raw/master/GameConsoleAdblockList.txt",
+  "https://github.com/DandelionSprout/adfilt/raw/master/Anti-Futa%20List.txt",
+  "https://github.com/DandelionSprout/adfilt/raw/master/AnnoyancesList"
 ]
