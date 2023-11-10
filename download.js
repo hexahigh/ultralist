@@ -5,7 +5,7 @@ const path = require("path");
 // Read URLs from a JSON file
 const urls = require("./urls.json");
 const directoryPath = path.join(__dirname, 'temp');
-const outputPath = path.join(__dirname, 'lists/ultralist_UB.txt');
+const outputPath = path.join(__dirname, 'lists/ultralist-UB.txt');
 
 async function downloadFile(fileUrl, outputLocationPath) {
   const writer = fs.createWriteStream(outputLocationPath);
