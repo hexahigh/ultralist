@@ -30,13 +30,6 @@ jobs:
     - name: Merge Files
       run: node ./merge.js
 
-    - name: Download Files for extreme blocklist
-      run: node ./ultra-download.js
-      
-    - name: Merge Files for extreme blocklist
-      run: node ./ultra-merge.js
-
-
     #- name: Setup java
       #uses: actions/setup-java@v3
       #with:
