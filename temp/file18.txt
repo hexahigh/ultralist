@@ -1,2 +1,0 @@
-! 2023-11-07 https://skolenmin.cdu.no
-skolenmin.cdu.no##.dictionary-toast-message.btn-no-icon.btn-align-center.btn-default.btn-md.btn
