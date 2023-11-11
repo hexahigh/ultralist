@@ -37,5 +37,7 @@
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiPPGList.txt",
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/AntiRacismList.txt",
   "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/BrowseWebsitesWithoutLoggingIn.txt",
-  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/uBO%20list%20extensions/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt"
+  "https://raw.githubusercontent.com/DandelionSprout/adfilt/master/uBO%20list%20extensions/BrowseWebsitesWithoutLoggingIn-uBOExtension.txt",
+  "https://raw.githubusercontent.com/hexahigh/ultralist/main/lists/rickroll.txt",
+  "http://rickrolldb.com/ricklist.txt"
 ]
