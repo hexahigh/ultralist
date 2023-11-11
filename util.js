@@ -15,4 +15,3 @@ fs.readFile('urls.json', 'utf8', function(err, data) {
         console.log('The file has been saved with the sorted array!');
     });
 });
-console.log("Sorted urls.json")
