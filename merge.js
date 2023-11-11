@@ -39,7 +39,7 @@ fs.readdir(directoryPath, (err, files) => {
     fileLines.forEach((line) => {
       // Only add the line if it is not a comment
       if (!line.startsWith("!") || line.startsWith("!#")) {
-        lines.add(line);
+        lines.push(line);
       }
     });
     console.log(`Merged file: ${file}`);
