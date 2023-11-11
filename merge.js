@@ -19,7 +19,7 @@ const formattedTime = currentDate.toLocaleTimeString("en-US", {
 const formattedDateTime = `${formattedDate} ${formattedTime} UTC`;
 const unixTime = Math.round(currentDate.getTime() / 1000);
 
-let lines = new Set();
+let lines = []
 
 fs.readdir(directoryPath, (err, files) => {
   if (err) {
