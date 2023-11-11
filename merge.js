@@ -45,7 +45,7 @@ fs.readdir(directoryPath, (err, files) => {
     console.log(`Merged file: ${file}`);
   });
 
-  let uniqueLines = prependText + Array.from(lines).join("\n"); // Prepend the text
+  let uniqueLines = prependText + lines.join("\n"); // Prepend the text
   fs.writeFileSync(outputPath, uniqueLines);
   console.log("All files merged into list");
 });
