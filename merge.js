@@ -38,7 +38,7 @@ fs.readdir(directoryPath, (err, files) => {
     let fileLines = data.split("\n");
     fileLines.forEach((line) => {
       // Only add the line if it is not a comment
-      if (!line.startsWith("!") || line.startsWith("!#")) {
+      if (!line.startsWith("!") || !line.startsWith("!#include") || line.startsWith("!#")) {
         lines.push(line);
       }
     });

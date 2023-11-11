@@ -4,4 +4,5 @@ sythical.com##.swal2-show.swal2-icon-error.swal2-modal.swal2-popup
 sythical.com##.swal2-backdrop-show.swal2-center.swal2-container
 catbox.moe/*/pic.js
 create.kahoot.it##.jTNAvS.blur__BlurStyled-sc-13qfwk1-0
-
+battledudes.io##.menu_element_hard_shadow.gifts.gift_right
+battledudes.io##.menu_element_hard_shadow.gifts.gift_long
