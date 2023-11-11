@@ -1,5 +1,10 @@
+![Adblock Plus 2.0]
 ! Title: Boofdev's ultralist
 ! Description: A giant filter list that blocks ads, trackers and more (Might be biased)
+! Version: %version%
+! TimeUpdated: %timeUpdated%
+! Last modified: %timeUpdated%
+! Expires: 1 days (update frequency)
 ! Lists used:
 ! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/privacy.txt
 ! https://raw.githubusercontent.com/uBlockOrigin/uAssets/master/filters/filters-2020.txt
