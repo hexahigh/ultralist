@@ -52,3 +52,4 @@ jobs:
        author_name: 'updater'
        author_email: 'admin@boofdev.eu'
        message: 'Updated list'
+       push: '--set-upstream origin list'
