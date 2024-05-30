@@ -33,9 +33,6 @@ jobs:
     - name: Run utilites
       run: node ./util.js
 
-    - name: Create branch
-      run: git checkout -b origin/list
-      
     #- name: Commit
     #  uses: EndBug/add-and-commit@v9
     #  with:
@@ -49,6 +46,10 @@ jobs:
       run: |
         git config --global user.email "admin@boofdev.eu"
         git config --global user.name "updater"
+        git checkout -b list
+        git fetch origin
+        git pull origin list
+        git rebase origin/list
         git add ./ultralist.txt
         git commit -m "Updated list"
         git push --set-upstream origin list
