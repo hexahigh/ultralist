@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 const directoryPath = path.join(__dirname, "temp");
-const outputPath = path.join(__dirname, "lists/ultralist-UB.txt");
+const outputPath = path.join(__dirname, "ultralist.txt");
 const prependFilePath = path.join(__dirname, "extra.txt");
 
 const currentDate = new Date();
