@@ -36,11 +36,19 @@ jobs:
     - name: Create branch
       run: git checkout -b list
       
-    - name: Commit
-      uses: EndBug/add-and-commit@v9
-      with:
-       add: '.'
-       author_name: 'updater'
-       author_email: 'admin@boofdev.eu'
-       message: 'Updated list'
-       push: '--set-upstream origin list'
+    #- name: Commit
+    #  uses: EndBug/add-and-commit@v9
+    #  with:
+    #   add: '.'
+    #   author_name: 'updater'
+    #   author_email: 'admin@boofdev.eu'
+    #   message: 'Updated list'
+    #   push: '--set-upstream origin list'
+
+    - name: Push 
+      run: |
+        git fetch --all
+        git pull --all
+        git add ./ultralist.txt
+        git commit -m "Updated list"
+        git push --set-upstream origin list
