@@ -33,22 +33,13 @@ jobs:
     - name: Run utilites
       run: node ./util.js
 
-    #- name: Setup java
-      #uses: actions/setup-java@v3
-      #with:
-        #distribution: 'zulu'
-        #java-version: '17'
-
-    #- name: Merge with SHM
-      #run: java -jar simple_hosts_merger.jar allowlists.txt blocklists.txt ./lists/ultralist cache;
-
     - name: Create branch
       run: git checkout -b list
       
     - name: Commit
       uses: EndBug/add-and-commit@v9
       with:
-       add: './ultralist.txt'
+       add: 'ultralist.txt'
        author_name: 'updater'
        author_email: 'admin@boofdev.eu'
        message: 'Updated list'
