@@ -47,6 +47,8 @@ jobs:
 
     - name: Push 
       run: |
+        git config --global user.email "admin@boofdev.eu"
+        git config --global user.name "updater"
         git add ./ultralist.txt
         git commit -m "Updated list"
         git push --set-upstream origin list
