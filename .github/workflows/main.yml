@@ -47,8 +47,6 @@ jobs:
 
     - name: Push 
       run: |
-        git fetch --all
-        git pull --all
         git add ./ultralist.txt
         git commit -m "Updated list"
         git push --set-upstream origin list
