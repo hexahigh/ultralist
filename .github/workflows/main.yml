@@ -39,7 +39,7 @@ jobs:
     - name: Commit
       uses: EndBug/add-and-commit@v9
       with:
-       add: 'ultralist.txt'
+       add: '.'
        author_name: 'updater'
        author_email: 'admin@boofdev.eu'
        message: 'Updated list'
